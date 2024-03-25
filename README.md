@@ -7,7 +7,7 @@ OpenAI Whisper-based project to transcribe audio and video files using React & D
 
 You need the latest versions of pipenv and node to setup this project.
 
-- First clone the repository `git clone https://github.com/ali-h-kudeir/transcribe-video-audio` and navigate to the project's folder
+- First clone the repository `git clone https://github.com/elizabethtang/dept-of-phys` and navigate to the project's folder
 `cd transcribe-video-audio`
 - Install the dependencies of both the client and server.
 - Run both the client and server separately
