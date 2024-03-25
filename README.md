@@ -35,13 +35,6 @@ You need the latest versions of pipenv and node to setup this project.
   yarn dev
 ```
 
-You need to have the following env variables in your .env.local file:
-```
-NEXT_PUBLIC_ROOT_URL=http://127.0.0.1:8000
-NEXT_PUBLIC_ALL_FILES_URL=http://127.0.0.1:8000/api/transcription/files/
-NEXT_PUBLIC_FILE_UPLOAD_URL=http://127.0.0.1:8000/api/transcription/files/
-NEXT_PUBLIC_TRANSCRIPTION_URL=ws://127.0.0.1:8000/ws/transcribe
-```
 
 Adjust these if your going to deploy to any remote server.
 
@@ -51,7 +44,6 @@ Adjust these if your going to deploy to any remote server.
 
 3- Select a video or audio file to upload The transcripts will be extracted and displayed on the page.
 
-4- You can also view all your uploaded video and audio files and see their transcriptions. Their is an additional export button that allows you to download a JSON file with all their information.
-
+4- You can also view all your uploaded video and audio files and see their transcriptions. 
 - Note that this project only allows MP4, and MP3 format files. 
 - Additional Notes Make sure ffmpeg is installed on your machine and available on your system's PATH
